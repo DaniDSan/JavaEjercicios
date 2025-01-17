@@ -16,10 +16,10 @@ public class MayorNumero {
     
     int ComprobarMayor(int numero1, int numero2){
         if (numero1 >= numero2) {
-            System.out.println("El primer número es mayor.");
+            System.out.println("El primer número es el mayor.");
             return numero1;
         } else {
-            System.out.println("El segundo número es mayor.");
+            System.out.println("El segundo número es el mayor.");
             return numero2;
         }
     }
